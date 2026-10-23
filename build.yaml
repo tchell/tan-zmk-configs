@@ -7,6 +7,10 @@
 #
 board: [ "nice_nano_v2" ]
 shield: [ "one" ]
+include:
+  - board: nice_nano_v2
+    shield: one
+    snippet: zmk-usb-logging
 # include:
 #   - board: bdn9_rev2
 #   - board: nice_nano
