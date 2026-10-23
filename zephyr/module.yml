@@ -1,3 +1,4 @@
+name: zmk-keyboard-tortie
 build:
   settings:
     board_root: .
