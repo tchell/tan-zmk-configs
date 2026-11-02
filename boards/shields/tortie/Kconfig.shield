@@ -1,0 +1,5 @@
+config SHIELD_TORTIE_LEFT
+    def_bool $(shields_list_contains,tortie_left)
+
+config SHIELD_TORTIE_RIGHT
+    def_bool $(shields_list_contains,tortie_right)
