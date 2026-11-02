@@ -1,0 +1,16 @@
+if SHIELD_TORTIE_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "tortie"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif # SHIELD_TORTIE_LEFT
+
+if SHIELD_TORTIE_LEFT || SHIELD_TORTIE_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif # SHIELD_TORTIE_LEFT || SHIELD_TORTIE_RIGHT
